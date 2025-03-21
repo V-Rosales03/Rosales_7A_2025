@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #fce4ec; /* Rosa pastel claro */
+}
+
+h1 {
+    color: #64b5f6; /* Azul pastel */
+}
+
+.p {
+    color: #a1887f; /* Marroncito claro */
+}
+
+.foto-container {
+    display: inline-block;
+    border: 5px dotted;
+    border-color: red blue green yellow;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.datos-personales {
+    background-color: #fff8e1; /* Casi crema */
+    border: 3px solid #bcaaa4; /* Marroncito más oscuro */
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    text-align: left;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.datos-personales h2 {
+    color: #64b5f6;
+    text-align: center;
+}
+
+.datos-personales input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.botones {
+    margin-top: 20px;
+}
+
+.botones button {
+    background-color: #64b5f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px dotted;
+    border-color: red green blue yellow;
+}
+
+.botones button.aceptar {
+    background-color: #81c784; /* Verde claro para Aceptar */
+}
+
+.botones button.cancelar {
+    background-color: #e57373; /* Rojo claro para Cancelar */
+}
